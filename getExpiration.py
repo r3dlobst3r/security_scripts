@@ -1,6 +1,6 @@
 ### Written by Andrew Shuman
 ### Feb 05, 2020
-### Tenable does not have alerts for licence expirtation
+### Tenable does not have alerts for licence expirtation, this script will calculate the number of days left until expiration and use mail script to email users if there are less than 100 days on license.
 
 import requests
 import json
