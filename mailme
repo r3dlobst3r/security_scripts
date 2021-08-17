@@ -9,9 +9,9 @@
 #                                           #
 #############################################
 
-EMAIL="vulnerability.management@virtustream.com"
-RESTARTSUBJECT="VEC Security Center - System Startup"
-SHUTDOWNSUBJECT="VEC Security Center - System Shutdown"
+EMAIL="email"
+RESTARTSUBJECT="Security Center - System Startup"
+SHUTDOWNSUBJECT="Security Center - System Shutdown"
 RESTARTBODY="This is an automated message to notify you that "`hostname`" started successfully.
 
 Start up Date and Time: "`date`
