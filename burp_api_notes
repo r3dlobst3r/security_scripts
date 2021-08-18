@@ -1,0 +1,3 @@
+#Eventually script this with python
+
+curl -vgw "\n" -X POST 'http://BURPIP:1337/v0.1/scan' -d '{"application_logins":[{"password":"PASSWORD","type":"UsernameAndPasswordLogin","username":"USERNAME"}],"urls":["https://IP_YOU_WANT_SCANNED"]}'
