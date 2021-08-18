@@ -1,0 +1,4 @@
+@reboot echo The system was rebooted. If this was not planned, lets check it out. | mailx -S smtp=SMTP_IP -s "`hostname` started" email
+
+#Check nessusd status every 15 minutes
+*/5 * * * * /home/user/sc_start.sh
