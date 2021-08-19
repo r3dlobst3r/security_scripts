@@ -63,7 +63,7 @@ def Days():
 
 if Days() < ###Specify number of days left on license that you want to trigger email. If you want it to email you when there are less than 100 days left, just put 100 here.###::
 # email options
-    SERVER = "IP:PORT"
+    SERVER = "SMTP_IP:PORT"
     FROM = "SC"
     TO = ["email"]
     SUBJECT = "Alert!"
