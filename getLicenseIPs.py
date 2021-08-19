@@ -18,7 +18,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 param = {
 
             "username" : "USERNAME",
-            ### If wanting to run this with cron, you will need to enter your password here. 
+            ### If wanting to run this with cron, you will need to enter your password here:
+            ### "password" : "PASSWORD"
             ### I reccomend using base64 as an obfuscation method, however this is insecure. 
             ### You could also do things like use the API access and secret key or use a secret server, etc.
             "password" : getpass.getpass("Please enter password\n"),
