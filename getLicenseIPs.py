@@ -56,7 +56,7 @@ def getConfig():
 ### Email
 if getConfig() < ###Number of systems left that you want to trigger email. If you wanted to get emailed when there is 3000 ips left on your license, just put 3000 here###:
 # email options
-    SERVER = "IP:PORT"
+    SERVER = "SMTP_IP:PORT"
     FROM = "SC"
     TO = ["email"]
     SUBJECT = "Alert!"
